@@ -15,6 +15,7 @@ export default function Card({ result }) {
           height={300}
           className="sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300"
           alt="movie poster"
+          priority
         ></Image>
         <div className="p-2">
           <p className="line-clamp-2 text-md">{result.overview}</p>
